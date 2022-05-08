@@ -1,0 +1,11 @@
+body {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+#weather {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 25px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
