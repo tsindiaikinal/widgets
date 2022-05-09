@@ -1,14 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="ua">
+  <head>
     <title>Курс валют</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div id="exchange_rates"></div>
-    <script src="index.js"></script>
-</body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="exchange_rates">
+      <div class="exchange-rates__date-container">
+        <label class="exchange-rates__date-label" for="date_rate"
+          >Вибір дати</label
+        >
+        <input
+          class="exchange-rates__date-selection"
+          type="date"
+          name="date"
+          id="date_rate"
+        />
+      </div>
+      <table class="exchange-rates">
+        <caption class="exchange-rates__header">
+          Курс валют НБУ
+        </caption>
+        <thead>
+          <tr>
+            <th class="exchange-rates__title">Валюта</th>
+            <th class="exchange-rates__title">Курс</th>
+            <th class="exchange-rates__title">Позначення</th>
+            <th class="exchange-rates__title">Дата</th>
+          </tr>
+        </thead>
+        <tbody class="exchange-rates__body"></tbody>
+      </table>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
