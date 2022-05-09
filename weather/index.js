@@ -1,5 +1,4 @@
 "use strict";
-
 import { TOKEN } from "./config.js"; /* Import token from config */
 
 (function () {
