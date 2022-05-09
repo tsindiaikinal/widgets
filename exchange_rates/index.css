@@ -1,3 +1,69 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exchange-rates__date-container {
+    width: 180px;
+}
+
+.exchange-rates__date-label {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.exchange-rates__date-selection {
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+
+    color: #fff;
+    border: none;
+    border-radius: 100%;
+    outline: 2px ridge rgba(115, 187, 115, 0.6);
+
+    font-size: 0;
+}
+
+.exchange-rates__date-selection::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    text-align: center;
+
+    font-size: 1.5rem;
+}
+
+.exchange-rates {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 25px;
+
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.exchange-rates__header {
+    padding: 15px;
+
+    text-align: center;
+
+    font-size: 1.8rem;
+}
+
+.exchange-rates__title {
+    padding: 10px 15px;
+
+    border: 1px solid #73bb73;
+}
+
+.exchange-rates__body tr:nth-of-type(odd) {
+    background-color: rgb(228, 226, 226);
+}
+
+.exchange-rates__body-elem {
+    padding: 5px 10px;
+}
+
 #exchange_rates {
     padding: 40px 25px;
 }
